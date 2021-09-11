@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import ReactApp from './ReactApp';
+import ImageUploaderWidget from './components/ImageUploaderWidget';
 
 function App() {
   return (
     <div className="App">
-      <ReactApp/>
+      <h1>The fun app!</h1>
+      <ImageUploaderWidget/>
     </div>
   );
 }
